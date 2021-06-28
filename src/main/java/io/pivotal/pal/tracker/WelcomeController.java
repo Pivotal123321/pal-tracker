@@ -8,6 +8,6 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Hello, This is the sample application to deploy on PCF";
+        return "hello";
     }
 }
